@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import './App.css';
 
 function App() {
-  const [quoteInfo, setQuoteInfo] = useState({});
+  const [quoteInfo, setQuoteInfo] = useState({}); 
 
 
   useEffect(() => {
